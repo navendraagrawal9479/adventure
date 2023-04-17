@@ -11,9 +11,9 @@ const dataSlice = createSlice({
   name: 'language',
   initialState,
   reducers: {
-    setLanguage: (state, payload) => {
-      state.language = payload.action.language
-      state.data = getData(payload.action.language)
+    setLanguage: (state, action) => {
+      state.language = action.payload.language
+      state.data = getData(action.payload.language)
     }
   }
 });

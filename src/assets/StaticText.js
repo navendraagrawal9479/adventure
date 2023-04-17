@@ -4,7 +4,7 @@ const getData = (lang) => {
   return {
     images: {
       main_img:
-        "https://www.libertytravel.com/sites/default/files/styles/full_size/public/adventure-hero.jpg?itok=t6iN0gA7",
+        "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cm9hZCUyMHRyaXB8ZW58MHx8MHx8&w=1000&q=80",
       middle_section_img:
         "https://img.freepik.com/premium-photo/keywords-travel-world-are-world-map-tourism-concept_11304-1630.jpg?w=2000",
       carousel_imgs: [
@@ -23,7 +23,7 @@ const getData = (lang) => {
       ? {
           buttons: {
             destination: "POPULAR DESTINATIONS",
-            home: "HOME",
+            home: "-HOME",
             faq: "FAQ",
             reviews: "REVIEWS",
             contact: "CONTACT US",
@@ -66,7 +66,7 @@ const getData = (lang) => {
       : {
           buttons: {
             destination: "लोकप्रिय गंतव्य",
-            home: "घर",
+            home: "-घर",
             faq: "सामान्य प्रश्न",
             reviews: "समीक्षा",
             contact: "संपर्क करें",
