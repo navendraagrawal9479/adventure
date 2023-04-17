@@ -1,5 +1,5 @@
 const language = {
-  HINDI: 'hindi',
+  HINDI: 'हिंदी',
   ENGLISH: 'english'
 }
 
