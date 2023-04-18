@@ -13,7 +13,7 @@ const MiddleWorking = () => {
       }}
     >
       <Stack
-        gap={7}
+        gap={5}
       >
         <Typography
           style={{
