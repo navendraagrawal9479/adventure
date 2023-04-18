@@ -83,7 +83,7 @@ export default function Dropdown({heading, options}) {
       >
         {options.map((dest) => {
           return (
-            <MenuItem onClick={handleClose} disableRipple>
+            <MenuItem key={dest} onClick={handleClose} disableRipple>
               {dest}
             </MenuItem>
           );
