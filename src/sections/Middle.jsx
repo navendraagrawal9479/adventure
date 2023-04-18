@@ -9,8 +9,7 @@ const Middle = () => {
   return (
     <Box 
       sx={{
-        minHeight: '100vh',
-        mt: 2,
+        minHeight: '110vh',
       }}
     >
       <Stack
