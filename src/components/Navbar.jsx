@@ -11,9 +11,9 @@ const Navbar = () => {
   const data = useSelector(state => state.data);
   const lang = useSelector(state => state.language);
   const dispatch = useDispatch();
+  const newLanguage = lang === language.ENGLISH ? language.HINDI : language.ENGLISH;
 
   const changeLanguage = () => {
-    const newLanguage = lang === language.ENGLISH ? language.HINDI : language.ENGLISH;
     dispatch(setLanguage({language: newLanguage}));
   }
 
@@ -50,7 +50,7 @@ const Navbar = () => {
           onClick={changeLanguage}
           startIcon = {<ChangeCircleIcon style={{fontSize: '1.5rem'}} />}
         >
-          {lang}
+          {newLanguage}
         </StyledButton>
         <Stack
           direction={'row'}
