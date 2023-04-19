@@ -1,3 +1,4 @@
+import Carousel from "./sections/Carousel";
 import Main from "./sections/Main";
 import Middle from "./sections/Middle";
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Main />
       <Middle />
+      <Carousel />
     </div>
   );
 }

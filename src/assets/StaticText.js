@@ -47,6 +47,9 @@ const getData = (lang) => {
             heading: "HOW IT WORKS",
             content: getSectionContent(lang),
           },
+          carousel_section: {
+            heading: "GET INSPIRED"
+          }
         }
       : {
           buttons: {
@@ -74,6 +77,9 @@ const getData = (lang) => {
             heading: "यह काम किस प्रकार करता है",
             content: getSectionContent(lang),
           },
+          carousel_section: {
+            heading: "प्रेरित हो"
+          }
         }),
   };
 };
