@@ -58,6 +58,9 @@ const getData = (lang) => {
             address: '3111 Fake Street, Anytown, AZ 12121',
             phone: '(480) 555-1212',
             button: 'DROP US A LINE!'
+          },
+          footer: {
+            text: 'Copyright © 2020 boarding now - All Rights Reserved.'
           }
         }
       : {
@@ -97,6 +100,9 @@ const getData = (lang) => {
             address: '3111 फेक स्ट्रीट, एनीटाउन, AZ 12121',
             phone: '(480) 555-1212',
             button: 'संपर्क करें!'
+          },
+          footer: {
+            text: 'कॉपीराइट © 2020 बोर्डिंग नाउ - सर्वाधिकार सुरक्षित।'
           }
         }),
   };

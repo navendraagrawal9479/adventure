@@ -6,14 +6,12 @@ import MapContent from '../components/MapContent';
 const ContactUs = () => {
   return (
     <Box
-      sx={{
-        height: '100vh'
-      }}
     > 
       <Stack
         direction={'row'}
         alignItems={'center'}
         justifyContent={'space-between'}
+        gap = {5}
       >
         <MapContent />
         <Map />
