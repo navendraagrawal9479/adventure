@@ -49,6 +49,15 @@ const getData = (lang) => {
           },
           carousel_section: {
             heading: "GET INSPIRED"
+          },
+          map_section: {
+            heading: 'CONTACT US',
+            title: 'Better yet, see us in person!',
+            description: 'We love our customers, so feel free to visit during normal business hours.',
+            addressHead: 'Boarding Now',
+            address: '3111 Fake Street, Anytown, AZ 12121',
+            phone: '(480) 555-1212',
+            button: 'DROP US A LINE!'
           }
         }
       : {
@@ -79,6 +88,15 @@ const getData = (lang) => {
           },
           carousel_section: {
             heading: "प्रेरित हो"
+          },
+          map_section: {
+            heading: 'संपर्क करें',
+            title: 'बेहतर अभी तक, हमें व्यक्तिगत रूप से देखें!',
+            description: 'हम अपने ग्राहकों से प्यार करते हैं, इसलिए सामान्य व्यावसायिक घंटों के दौरान यात्रा करने में संकोच न करें।',
+            addressHead: 'अब बोर्डिंग',
+            address: '3111 फेक स्ट्रीट, एनीटाउन, AZ 12121',
+            phone: '(480) 555-1212',
+            button: 'संपर्क करें!'
           }
         }),
   };
