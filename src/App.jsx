@@ -1,18 +1,15 @@
-import Carousel from "./sections/Carousel";
-import ContactUs from "./sections/ContactUs";
-import Footer from "./sections/Footer";
-import Main from "./sections/Main";
-import Middle from "./sections/Middle";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
-    <div>
-      <Main />
-      <Middle />
-      <Carousel />
-      <ContactUs />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog/create" element={<Blog />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
