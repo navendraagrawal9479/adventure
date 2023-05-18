@@ -16,7 +16,7 @@ const MainSection = () => {
         <Typography
           variant='h2'
           style={{
-            fontFamily: "'Oswald', sans-serif",
+            fontFamily: "'Fjalla One', sans-serif",
             fontWeight: "bold",
             color: "#fff",
             m: "2rem auto",
@@ -41,7 +41,7 @@ const MainSection = () => {
             color: '#fff',
             fontWeight: 'bold',
             fontSize: '1.5rem',
-            fontFamily: "'Oswald', sans-serif",
+            fontFamily: "'Fjalla One', sans-serif",
             "&:hover": {
               backgroundColor: '#fff',
               color: '#000'

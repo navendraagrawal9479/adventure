@@ -18,7 +18,7 @@ const MiddleWorking = () => {
         <Typography
           style={{
             fontSize: "2rem",
-            fontFamily: "'Oswald', sans-serif"
+            fontFamily: "'Fjalla One', sans-serif",
           }}
         >
           {data.middle_section.heading}

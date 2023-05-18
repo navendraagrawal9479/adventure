@@ -18,7 +18,7 @@ const MapContent = () => {
         <Typography
           style={{
             fontSize: "2rem",
-            fontFamily: "'Oswald', sans-serif",
+            fontFamily: "'Fjalla One', sans-serif",
           }}
         >
           {data.map_section.heading}
@@ -46,7 +46,7 @@ const MapContent = () => {
             color: "#000",
             border: "none",
             fontSize: "1.5rem",
-            fontFamily: "'Oswald', sans-serif",
+            fontFamily: "'Fjalla One', sans-serif",
             "&:hover": {
               backgroundColor: "#000",
               color: "#fff",

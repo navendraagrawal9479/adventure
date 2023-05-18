@@ -6,7 +6,7 @@ const StyledButton = styled(Button)({
   color: '#fff',
   fontWeight: 'bold',
   fontSize: '1.5rem',
-  fontFamily: "'Oswald', sans-serif",
+  fontFamily: "'Fjalla One', sans-serif",
   "&:hover": {
     backgroundColor: 'transparent',
   }
